@@ -9,7 +9,7 @@ const app = express()
 const port = 3002
 
 app.get('/', (req, res) => {
-    res.sendFile('index.html', {root: __dirname})
+    res.sendFile('./public/index.html', {root: __dirname})
 })
 
 
