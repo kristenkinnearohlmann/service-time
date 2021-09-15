@@ -3,7 +3,6 @@ const btnEnterRecord = document.getElementById('enter-record')
 const init = () => {
     helloWorld()
     goodbyeWorld()
-    setupApp()
 }
 
 const helloWorld = () => {
