@@ -1,4 +1,5 @@
 const btnEnterRecord = document.getElementById('enter-record')
+const entryForm = document.getElementById('entry-form')
 
 const init = () => {
     helloWorld()
@@ -16,6 +17,15 @@ const goodbyeWorld = () => {
 const enterRecord = () => {
     console.log('Do record things')
     console.log(btnEnterRecord)
+    showElement(entryForm)
+}
+
+const showElement = element => {
+    element.classList.remove('hidden')
+}
+
+const hideElement = element => {
+    element.classList.add('hidden')
 }
 
 // event listeners
