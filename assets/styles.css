@@ -22,13 +22,16 @@ header {
 
 .header-menu {
     display: flex;
+    justify-content: center;
+    padding: 5px;
 }
 
 button {
     background-color: transparent;
-    border: 2px solid purple;
+    border: 3px solid purple;
     font-family: 'Josefin Sans', sans-serif;
     font-size: 1.125rem;
+    margin: 5px;
     padding: 0.25rem;
     width: 200px;
 }
