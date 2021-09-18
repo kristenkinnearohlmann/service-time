@@ -39,3 +39,10 @@ button {
 button:hover {
     background-color: rgba(255,255,255,0.5);
 }
+
+main {
+    border: 2px solid blue;
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 1rem;
+}
