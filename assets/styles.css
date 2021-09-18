@@ -42,7 +42,28 @@ button:hover {
 
 main {
     border: 2px solid blue;
-    max-width: 90%;
+    width: 90%;
     margin: 0 auto;
     padding: 1rem;
+}
+
+/* media query for generic tablet */
+@media only screen and (min-width: 600px) {
+    main {
+        
+    }
+}
+
+/* media query for generic desktop */
+@media only screen and (min-width: 768px) {
+    main {
+        width: 75%;
+    }
+}
+
+/* media query for less than 300px */
+@media only screen and (max-width: 299px) {
+    main {
+        
+    }
 }
