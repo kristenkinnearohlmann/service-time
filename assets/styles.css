@@ -35,3 +35,7 @@ button {
     padding: 0.25rem;
     width: 200px;
 }
+
+button:hover {
+    background-color: rgba(255,255,255,0.5);
+}
