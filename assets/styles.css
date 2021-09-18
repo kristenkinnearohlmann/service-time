@@ -23,3 +23,12 @@ header {
 .header-menu {
     display: flex;
 }
+
+button {
+    background-color: transparent;
+    border: 2px solid purple;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.125rem;
+    padding: 0.25rem;
+    width: 200px;
+}
