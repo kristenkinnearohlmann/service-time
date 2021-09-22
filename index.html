@@ -34,35 +34,6 @@
                     <p>I am a single update
                 </div>
             </div>
-            <ol>
-                <li>
-                    <p>Define interface</p>
-                    <p>
-                        <ul>
-                            <li>Enter a new person, references source system (include FK Id)</li>
-                            <li>Enter a new person, no reference to source system</li>
-                            <li>Edit a single person</li>
-                            <li>Enter multiple updates for a single person</li>
-                        </ul>
-                    </p>
-                </li>
-                <li>
-                    <p>Define data file</p>
-                    <p>
-                        <ul>
-                            <li>The person table needs to be independent and contain a reference to the source system, which can be null. This allows outside records to be retained.</li>
-                            <li>There should be a table for department names. Allow for inactive records and references to a changed department name. Include date start and end for records to allow for backfilling a person.</li>
-                            <li>There should be a table for superintendent names. Allow for inactive records. Include date start and date end for records to allow for backfilling a person.</li>
-                        </ul>
-                    </p>
-                </li>
-                <li>
-                    <p>Implement read/write</p>
-                    <p>
-
-                    </p>
-                </li>
-            </ol>
         </main>
         <script src="./src/employee.js"></script>
         <script src="./src/index.js"></script>
