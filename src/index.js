@@ -34,8 +34,14 @@ const buildEmployeeEntryForm = (entryForm) => {
     const form = document.createElement('form')
 
     form.innerHTML = `
-        <input type="text" id="first_name" name="first_name" /><br/>
-        <input type="text" id="last_name" name="last_name" /><br/>
+        <p>
+            <label for="first_name">First name</label><br/>
+            <input type="text" id="first_name" name="first_name" />
+        </p>
+        <p>
+            <label for="last_name">Last name</label><br/>
+            <input type="text" id="last_name" name="last_name" />
+        </p>
         <input type="submit" value="Add employee">
     `
 
