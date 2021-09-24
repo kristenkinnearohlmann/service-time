@@ -17,6 +17,7 @@ const goodbyeWorld = () => {
 const enterRecord = () => {
     console.log('Do record things')
     console.log(btnEnterRecord)
+    buildEmployeeEntryForm(entryForm)
     showElement(entryForm)
 }
 
@@ -26,6 +27,19 @@ const showElement = element => {
 
 const hideElement = element => {
     element.classList.add('hidden')
+}
+
+const buildEmployeeEntryForm = (entryForm) => {
+    const div = entryForm
+    const form = document.createElement('form')
+
+    form.innerHTML = `
+        <input type="text" id="first_name" name="first_name" /><br/>
+        <input type="text" id="last_name" name="last_name" /><br/>
+        <input type="submit" value="Add employee">
+    `
+
+    div.appendChild(form)
 }
 
 // event listeners
