@@ -42,6 +42,9 @@ const buildEmployeeEntryForm = (entryForm) => {
             <label for="last_name">Last name</label><br/>
             <input type="text" id="last_name" name="last_name" />
         </p>
+        <p>
+            <label>Enter years served with area, separated by commas (ex. 1999 Finance, 2000 Finance, 2001 Accounting)
+        </p>
         <input type="submit" value="Add employee">
     `
 
