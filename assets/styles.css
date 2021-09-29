@@ -36,7 +36,7 @@ button {
     font-family: 'Josefin Sans', sans-serif;
     font-size: 1.125rem;
     margin: 5px;
-    padding: 0.25rem;
+    padding: 0.5rem;
     width: 200px;
 }
 
@@ -46,7 +46,7 @@ button {
     font-family: 'Josefin Sans', sans-serif;
     font-size: 1.125rem;
     margin: 5px;
-    padding: 0.25rem;
+    padding: 0.5rem;
     width: 200px;
 }
 
@@ -60,6 +60,12 @@ main {
     width: 90%;
     margin: 0 auto;
     padding: 1rem;
+}
+
+input[type=text] {
+    background-color: lightgray;
+    border: 2px solid grey;
+    padding: 0.35rem;
 }
 
 /* media query for generic tablet */
