@@ -2,21 +2,10 @@ const btnEnterRecord = document.getElementById('enter-record')
 const entryForm = document.getElementById('entry-form')
 
 const init = () => {
-    helloWorld()
-    goodbyeWorld()
-}
-
-const helloWorld = () => {
-    console.log("Hello world, I'm starting up")
-}
-
-const goodbyeWorld = () => {
-    console.log("Goodbye world, I'm shutting down")
+    console.log('Service Time')
 }
 
 const enterRecord = () => {
-    console.log('Do record things')
-    console.log(btnEnterRecord)
     showElement(entryForm)
 }
 
